@@ -1,3 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
 header{
+    margin-top: 5px;
+}
+.logo{
+    vertical-align: middle;
     margin-left: 1%;
+}
+.titolo{
+    font-size: 200%;
+    color: rgba(0, 0, 16, 32); 
+    vertical-align: middle;
+}
+main{
+    
+}
+.sfondo{
+    background-color: rgb(240, 240, 240);
+    padding:100%;
+    
+}
+.foglio{
+    background-color:white;
+    padding: 1000px;
+    
+    
+    
 }
