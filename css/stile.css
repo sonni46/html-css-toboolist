@@ -1,85 +1,161 @@
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
-header{
-    margin-top: 5px;
+header {
+  margin-top: 5px;
 }
-.logo{
-    vertical-align: middle;
-    margin-left: 1%;
-    margin-bottom: 1%;
+.logo {
+  vertical-align: middle;
+  margin-left: 1%;
+  margin-bottom: 1%;
 }
-.titolo{
-    font-size: 250%;
-    color: rgba(0, 0, 16, 32); 
-    font-weight: 400;
+.titolo {
+  font-size: 250%;
+  color: rgba(0, 0, 16, 32);
+  font-weight: 400;
 }
-.sfondo{
-    background-color: rgb(240, 240, 240);
-    height: 1800px; 
+.sfondo {
+  background-color: rgb(240, 240, 240);
+  height: 1800px;
 }
-.foglio{
-    background-color:rgb(255, 255, 255);
-    display: inline-table;
-    margin-left: 25%;
-    margin-top: 2%;
-    border-radius: 5px;
-    height: 50%;
-    width: 50%;
-    
+/* foglio */
+.foglio {
+  background-color: rgb(255, 255, 255);
+  display: inline-table;
+  margin-left: 25%;
+  margin-top: 2%;
+  border-radius: 5px;
+  height: 35%;
+  width: 50%;
 }
-.bottoni-blu{
-    background-color: rgb(0, 153, 255);
-    color: white;
-    border-radius: 5px;
-    width:100px;
-    height: 30px;
-    display:inline-block;
-    vertical-align: middle;
-    line-height: 30px ;
-    text-align: center;
-    margin-left: 2%;
-    margin-bottom:2%;
+.info-foglio {
+  margin-left: 5%;
+  margin-top: 2%;
 }
-.bottoni-Trasparente{
-    background-color: rgb(255, 255, 255);
-    color: violet;
-    border-radius: 5px;
-    width:100px;
-    height: 30px;
-    display:inline-block;
-    vertical-align: middle;
-    line-height: 30px ;
-    border: rgb(0, 98, 255) solid 1px;
-    text-align: center;
-    margin-bottom:2%;
+.opzioni {
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
-.info-foglio{
-    margin-left:5% ;
-    margin-top: 2%;
-    
+/* foglio */
+
+/* consenso  */
+.positivo {
+  border: solid rgb(143, 221, 133);
+  border-radius: 50%;
+  color: rgb(143, 221, 133);
 }
-.spunta{
-    border: solid rgb(143, 221, 133);
-    border-radius: 50%;
-    color:rgb(143, 221, 133);
+.negativo {
+  border: solid rgb(221, 133, 133);
+  border-radius: 50%;
+  color: rgb(221, 133, 133);
 }
-.bottoni-blu-Task{
-    background-color: rgb(0, 153, 255);
-    color: white;
-    border-radius: 50px;
-    width:90px;
-    height: 30px;
-    display:inline-block;
-    vertical-align: middle;
-    line-height: 30px ;
-    text-align: center;
-    margin-left: 2%;
-    margin: 0%;
-    
+/* consenso */
+
+/* bottoni  */
+.bottoni-viola-Task {
+  background-color: rgb(197, 17, 221);
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin: 0%;
 }
-.opzioni{
-    margin-bottom: 1%;
+.bottoni-verde-Task {
+  background-color: rgb(0, 126, 17);
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin: 0%;
 }
+.bottoni-arancione-Task {
+  background-color: rgb(240, 145, 22);
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin: 0%;
+}
+.bottoni-rosa-Task {
+  background-color: rgb(238, 127, 238);
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin: 0%;
+}
+.bottoni-verdeacceso-Task {
+  background-color: rgb(51, 218, 29);
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin: 0%;
+}
+.bottoni-blu {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.bottoni-Trasparente {
+  background-color: rgb(255, 255, 255);
+  color: violet;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  border: rgb(0, 98, 255) solid 1px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.bottoni-blu-Task {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 2%;
+  margin: 0%;
+}
+/* bottoni  */
